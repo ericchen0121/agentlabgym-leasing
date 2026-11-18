@@ -1,0 +1,32 @@
+{
+  "name": "larkspur-leasing-gym",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Resettable property-leasing environment for training and evaluating computer-use agents.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 3000",
+    "cli": "tsx cli/larkspur.ts",
+    "test": "playwright test",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "next": "^15.5.4",
+    "pg": "^8.13.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^22.15.0",
+    "@types/pg": "^8.11.11",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
